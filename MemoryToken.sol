@@ -428,7 +428,7 @@ contract MEMORY is Context, IERC20, Ownable {
     address[] private _excluded;
    
     uint256 private constant MAX = ~uint256(0);
-    uint256 private constant _tTotal = 48000000 * 10**6;
+    uint256 private constant _tTotal = 48000 * 10**3;
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
